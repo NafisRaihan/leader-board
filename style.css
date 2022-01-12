@@ -63,11 +63,12 @@ body{
 /* top section started */
 
 /* top player section started */
-main{
+.top-part{
     background-color: white;
     margin-top: 33px;
     margin-left: 285px;
     margin-right: 285px;
+    border-radius: 5px;
     
 }
 
@@ -97,13 +98,11 @@ main{
     width: 56px;
 }
 /* player name done  */
-.player-name{
+.player-name .course-text{
     font-family: 'Bebas Neue', cursive;
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
     line-height: 27px;
-    padding-left: 16px;
-    padding-bottom: 59px;
 }
 /* top player section done  */
 
@@ -140,12 +139,14 @@ main{
 /* blog name done  */
 .blog-name{
     padding-right: 20px;
+    margin-bottom: 100px;
 }
 /* blog pic done  */
 .blog-pic{
     height: 117px;
     width: 177px;
     padding-right: 16px;
+    margin-bottom: 30px;
 }
 /* author  done  */
 .author{
@@ -165,3 +166,57 @@ main{
 
 /* -------top section done -----------
 ------------------------------------- */
+
+/* courses section started */
+.middle-part{
+    background-color: white;
+    margin-top: 33px;
+    margin-left: 285px;
+    margin-right: 285px;
+    padding: 30px 10px;
+    border-radius: 5px;
+}
+/* course section done  */
+.course-section{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+/* course title given  */
+.course-title{
+    color: #562EFF;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Poppins', sans-serif;
+    padding-top: 33px;
+    margin-left: 33px;
+    margin-right: 712px;
+} 
+/* courses flexed    */
+.courses{
+    display: flex;
+    flex-direction: column;
+    height: 249.79px;
+    width: 232.42px;
+    border: 2px solid rgba(0, 0, 0, 0.05);
+    border-radius: 12px;
+    box-shadow: 2px 2px 8px lightgrey;
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-right: 20px;
+    padding-bottom: 26px;
+}
+/* course pic designed  */
+.course-pic{
+    height: 104px;
+    width: 224px;
+}
+/* course author given  */
+.course-text .author{
+    color: #ED6B4F;
+
+}
+/* details flex done  */
+.details{
+    display: flex;
+}
+ /* middle section done  */
+ /* leader board web done  */
